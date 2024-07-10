@@ -301,3 +301,15 @@ form> input{
     text-align: center;
     font-weight: 700;
 }
+
+/* Footer part */
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+}
+.footer .icons i{
+    margin: 0 10px;
+}
