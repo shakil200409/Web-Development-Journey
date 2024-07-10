@@ -259,3 +259,45 @@ body{
 .box i{
     margin-bottom: 10px;
 }
+
+/* Support Part */
+.support{
+    width: 100%;
+    height: 400px;
+    margin: 0 auto;
+    background: url(assets/handshake.jpg) ,linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+.support-intro h3{
+    color: white;
+}
+.support-intro p{
+    color: white;
+}
+form{
+    margin: 15px;
+    display: flex;
+}
+form> input{
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+    margin: 15px;
+}
+#comment{
+    width: 500px;
+}
+#submit{
+    padding: 10px 20px;
+    width: 50px;
+    text-align: center;
+    font-weight: 700;
+}
