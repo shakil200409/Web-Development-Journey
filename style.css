@@ -163,6 +163,7 @@ body{
     
 }
 
+/* Inspiration Intro */
 .inspiration-intro{
     width: 100%;
     margin: 0 auto;
@@ -193,4 +194,68 @@ body{
     width: 98%;
     height: 400px;
     border-radius: 15px;
+}
+
+/* Current Target Part */
+.current-target{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Target intro */
+.target-intro{
+    width: 100%;
+    margin: 0 auto;
+}
+.target-intro h3{
+    font-size: 30px;
+    margin: 10px;
+}
+.target-intro p{
+    margin: 10px 0;
+    color: #5c5b5b;
+}
+
+/* Target Boxes part */
+.target-boxes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.box{
+    width: 33%;
+    height: 100px;
+    height: 350px;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-1{
+    background-color: rgb(235, 235, 205);
+    
+}
+.box-2{
+    background-color: rgb(237, 206, 206);
+    
+}
+.box-3{
+    background-color: rgb(174, 216, 227);
+    
+}
+.box i{
+    margin-bottom: 10px;
+}
+.box h4{
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+.box i{
+    margin-bottom: 10px;
 }
